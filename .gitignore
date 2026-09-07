@@ -1,0 +1,7 @@
+# dev-repo/ lives as a sibling directory outside this repo (../dev-repo)
+# and is never nested here, so this is a defensive/documentation entry:
+# it makes explicit that the cloned doubleoctopus org repos must never
+# be tracked or pushed to ClaudeQA-Backup, even if something is copied
+# in by mistake.
+dev-repo/
+../dev-repo/
